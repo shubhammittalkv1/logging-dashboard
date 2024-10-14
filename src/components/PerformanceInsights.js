@@ -27,9 +27,9 @@ const PerformanceInsights = ({ data }) => {
         <table className="w-full border-collapse rounded-lg">
           <thead className="rounded-lg">
             <tr className="bg-gray-100 rounded-lg">
-              <th className="border p-2 text-left">Trace Name</th>
-              <th className="border p-2 text-left">Trace ID</th>
-              <th className="border p-2 text-left">Duration (in ms)</th>
+              <th className="border p-2 text-left text-md">Trace Name</th>
+              <th className="border p-2 text-left text-md">Trace ID</th>
+              <th className="border p-2 text-left text-md">Total Duration (ms)</th>
             </tr>
           </thead>
           <tbody>

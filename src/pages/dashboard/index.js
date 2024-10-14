@@ -75,6 +75,7 @@ const Dashboard = ({ data }) => {
       setIsFilterApplied(true);
       setSelectedTrace(tempFilteredTraces[0].traceId);
       setFilteredTraces(tempFilteredTraces);
+      setSelectedSpan(null);
     } else {
       alert("No traces found with the given duration");
     }
